@@ -1,0 +1,461 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "2e8c7c14-a0ad-4930-a1d8-3def05310426": {
+          "type": "breadcrumb",
+          "settings": {
+            "breadcrumb_layout": "full",
+            "breadcrumb_alignment": "left",
+            "breadcrumb_bg": "rgba(0,0,0,0)",
+            "breadcrumb_gradient": "",
+            "breadcrumb_bg_mb": "#f6f6f6",
+            "breadcrumb_gradient_mb": "",
+            "breadcrumb_mg_top_desktop": 10,
+            "breadcrumb_mg_top_mobile": 0,
+            "breadcrumb_mg_bottom_desktop": 20,
+            "breadcrumb_mg_bottom_mobile": 10
+          }
+        },
+        "b0ea69b7-8a54-4a3c-9abd-0fcceeabaaa0": {
+          "type": "title",
+          "settings": {
+            "fontsize_text": 20,
+            "fontsize_text_mb": 18,
+            "color_title": "#232323",
+            "spacing_top": 0,
+            "spacing_bottom": 10
+          }
+        },
+        "4036f89b-c2c5-49a4-9d6b-2fd29ce7c46c": {
+          "type": "short_description",
+          "settings": {
+            "show_short_description": true,
+            "word_number": "17",
+            "fontsize_text": 12,
+            "color_text": "#3c3c3c",
+            "spacing_top": 0,
+            "spacing_bottom": 12
+          }
+        },
+        "4f95b592-8369-4ab0-b30d-24e463fb6890": {
+          "type": "price",
+          "settings": {
+            "fontsize_text": 18,
+            "spacing_top": 0,
+            "spacing_bottom": 17
+          }
+        },
+        "faa2b3e6-c0a1-4269-baa6-d2605efe4c05": {
+          "type": "quantity_selector",
+          "settings": {
+            "qty_style": "1",
+            "qty_layout": "1",
+            "spacing_top": 0,
+            "spacing_bottom": 15
+          }
+        },
+        "f1b31d90-1e43-4948-9fe3-97ba43f6fb34": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false,
+            "atc_animation": "none",
+            "atc_color": "#ffffff",
+            "atc_border_color": "#133322",
+            "atc_bg_color": "#133322",
+            "atc_bg_color_gradient": "",
+            "atc_color_hover": "#133322",
+            "atc_border_color_hover": "#133322",
+            "atc_bg_color_hover": "#ffffff",
+            "atc_bg_color_gradient_hover": "",
+            "bin_color": "#232323",
+            "bin_border_color": "#acacac",
+            "bin_bg_color": "#ffffff",
+            "bin_bg_color_gradient": "",
+            "bin_color_hover": "#ffffff",
+            "bin_border_color_hover": "#232323",
+            "bin_bg_color_hover": "#232323",
+            "bin_bg_color_hover_gradient": "",
+            "spacing_top": 0,
+            "spacing_bottom": 15
+          }
+        },
+        "custom_information_3FA4RH": {
+          "type": "custom_information",
+          "settings": {
+            "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewbox=\"0 0 32 32\" fill=\"none\">\n  <path d=\"M9.57058 20.662C9.5105 18.6684 9.80363 16.6528 10.6339 14.8776C11.4223 13.0733 12.8442 11.6495 14.4519 10.5024C16.0706 9.35355 17.9204 8.51784 19.8212 7.86238C21.5946 7.26154 23.4336 6.78633 25.2743 6.47135C25.2525 7.51826 25.1942 8.57792 25.0922 9.62302C24.9939 10.8047 24.8246 11.9772 24.5861 13.1297C24.1564 15.4402 23.4081 17.6797 22.2264 19.6224C21.5983 20.5637 20.8518 21.414 19.9633 22.1132C19.0547 22.7814 18.0515 23.3312 16.9755 23.7409C15.1074 24.4291 13.05 24.7131 11.0217 24.6804C11.0709 24.633 11.1218 24.5857 11.171 24.5365C12.3035 23.4186 13.3631 22.2315 14.3882 21.0171C15.3878 19.7808 16.36 18.5245 17.2431 17.2009C18.1243 15.879 18.9509 14.5098 19.6137 13.0551L19.0547 12.7583C18.2281 14.0765 17.3287 15.3492 16.3855 16.5891C15.4388 17.8272 14.4701 19.0489 13.4414 20.2196C12.4382 21.4122 11.3822 22.5592 10.3043 23.6826C9.22829 24.806 8.11036 25.8893 6.96149 26.9344L7.5605 27.67C8.53641 26.9508 9.45405 26.1643 10.3353 25.3395C12.6676 25.6945 15.0601 25.5707 17.3505 24.8461C18.5504 24.4655 19.7065 23.9029 20.7407 23.1473C21.7658 22.3753 22.6415 21.4158 23.3644 20.3653C24.7536 18.2223 25.4782 15.7771 25.8569 13.3519C26.2138 10.9103 26.2812 8.4614 25.9935 6.01617L25.9898 5.98886V5.98157C25.9607 5.79222 25.7859 5.66295 25.5966 5.69026H25.5947C23.5246 5.93606 21.5109 6.38577 19.5408 7.04487C17.9787 7.56378 16.4456 8.20832 15.0109 9.04949C14.339 8.15916 13.6126 7.31616 12.8242 6.54236C12.3818 6.10538 11.9266 5.68298 11.455 5.27878C10.9816 4.87276 10.5083 4.48858 9.98571 4.10987C9.97478 4.10259 9.96021 4.09167 9.94747 4.08438C9.68164 3.92052 9.33207 4.00245 9.16638 4.26828C8.38711 5.58102 7.75532 6.9156 7.21821 8.31574C6.69384 9.71405 6.28236 11.1633 6.09665 12.6636C5.91457 14.153 5.96191 15.7242 6.48082 17.1735C6.9888 18.6228 7.91737 19.8791 9.02436 20.886L9.5633 20.6602L9.57058 20.662ZM11.4769 11.8971L10.7286 9.14599L10.0658 9.28254L10.6048 13.0441C10.3007 13.5084 10.0312 13.9946 9.81092 14.508C9.06442 16.1976 8.78585 18.0402 8.83319 19.8464C8.09033 18.9888 7.49496 18.0147 7.16177 16.9478C6.73572 15.615 6.73754 14.1785 6.9542 12.782C7.17633 11.3818 7.61331 10.0108 8.15952 8.68899C8.63109 7.56742 9.19369 6.46407 9.81638 5.43172C10.1168 5.66659 10.4172 5.90875 10.7067 6.15636C11.1582 6.54418 11.5952 6.94838 12.0176 7.36532C12.7496 8.08269 13.4159 8.85831 14.0313 9.66671C13.9949 9.6922 13.9567 9.71041 13.9203 9.7359C13.0318 10.3422 12.1979 11.0687 11.4787 11.8953L11.4769 11.8971Z\" fill=\"#0E1F1A\"></path>\n</svg>",
+            "color_icon": "#0e1f1a",
+            "text": "Yerba Mate",
+            "color_title": "#191e19",
+            "text_description": "",
+            "color_des": "#4d4d4d",
+            "fontsize_text": 12,
+            "content_popup": "",
+            "spacing_top": 0,
+            "spacing_bottom": 12
+          }
+        },
+        "a86220cf-8641-4e06-87d3-b5ffa195501b": {
+          "type": "custom_information",
+          "settings": {
+            "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewbox=\"0 0 32 32\" fill=\"none\">\n  <path d=\"M27.5995 10.8929C27.4386 9.46928 26.7949 8.04568 25.8291 6.93844C24.8634 5.98937 23.4149 5.19849 21.9663 5.04031C20.5178 4.88213 19.0692 5.19849 17.7816 5.8312C16.494 6.46391 15.3674 7.2548 14.4016 8.20386C13.4359 7.72933 12.6312 7.41297 11.5045 7.2548C10.3779 7.09662 9.09029 7.09662 7.96364 7.57115C6.83699 8.04568 5.87128 8.99475 5.22749 9.94382C4.58368 10.8929 4.26178 12.1583 4.10083 13.2655C3.77893 15.6382 4.26178 18.0109 5.06653 20.0672C6.03224 22.1235 7.64174 24.0217 9.57314 25.2871C10.5388 25.9198 11.6655 26.3943 12.9531 26.5525C14.0797 26.7107 15.3674 26.5525 16.494 26.078C17.4597 25.6034 18.4254 24.9707 19.0692 24.0217C21.8053 23.2308 24.0587 21.3326 25.6682 18.96C27.1168 16.5873 27.9214 13.7401 27.5995 10.8929ZM18.1035 6.62209C19.2301 6.14755 20.5178 5.8312 21.8053 5.98937C22.6101 6.14755 23.4149 6.46391 24.0587 6.93844C23.8977 7.57115 23.7368 8.20386 23.4149 8.83657C23.093 9.62746 22.7711 10.2602 22.2882 10.8929C21.8053 11.5256 21.3226 12.1583 20.6787 12.791C20.1959 13.2655 19.713 13.5819 19.2301 14.0564C19.2301 13.8983 19.2301 13.8983 19.0692 13.7401C18.2645 11.8419 16.9768 9.94382 15.0455 8.6784C16.0112 7.88751 16.9768 7.09662 18.1035 6.62209ZM13.114 25.7616C11.9874 25.6034 11.0217 25.1289 10.2169 24.4962C8.44649 23.2308 6.99793 21.4908 6.19318 19.5927C5.22748 17.6945 4.74463 15.4801 5.06653 13.4237C5.22748 12.3165 5.54938 11.3674 6.03224 10.4183C6.51508 9.46928 7.31983 8.83657 8.28554 8.36204C8.44649 8.36204 8.60743 8.20386 8.60743 8.20386C9.73409 9.46928 10.6998 10.5765 11.1826 12.0001C11.6655 13.5819 11.8264 15.1637 11.6655 16.7455C11.5045 18.4854 11.5045 20.3836 12.1483 21.9653C12.4702 22.7562 12.9531 23.5471 13.4359 24.338C13.7578 24.8125 14.2407 25.2871 14.7236 25.7616C14.2407 25.7616 13.5969 25.7616 13.114 25.7616ZM16.1721 25.4452C15.8502 25.4452 15.6893 25.6034 15.3674 25.6034C14.2407 24.4962 13.4359 23.2308 13.114 21.8072C12.9531 21.0163 12.7922 20.2254 12.6312 19.4345C12.6312 18.6436 12.6312 17.8527 12.7922 17.0618C12.9531 15.3219 12.9531 13.4237 12.3093 11.8419C11.9874 11.0511 11.5045 10.2602 10.8607 9.46928C10.3779 8.83657 9.89504 8.36204 9.57314 8.04569C10.2169 7.88751 10.8607 7.88751 11.5045 8.04569C12.4702 8.04569 13.5969 8.52022 14.4016 9.15293C16.1721 10.2602 17.6207 12.1583 18.5864 14.0564C19.552 16.1128 19.8739 18.3273 19.552 20.3836C19.3911 21.4908 19.0692 22.4399 18.4254 23.3889C17.9426 24.1798 17.1378 24.9707 16.1721 25.4452ZM24.7024 18.4854C23.4149 20.3836 21.6445 21.9653 19.713 22.9144C20.0349 22.1235 20.3568 21.3326 20.3568 20.5417C20.6787 18.4854 20.3568 16.5873 19.552 14.6891C20.1959 14.3728 20.8397 14.0564 21.4835 13.5819C22.1272 13.1074 22.932 12.4747 23.4149 11.6838C23.8977 10.8929 24.3806 10.102 24.5415 9.31111C24.7024 8.6784 24.8634 8.20386 24.8634 7.57115L25.0243 7.72933C25.8291 8.6784 26.312 9.78564 26.4729 11.0511C26.7949 13.5819 26.151 16.2709 24.7024 18.4854Z\" fill=\"black\"></path>\n</svg>",
+            "color_icon": "#0e1f1a",
+            "text": "120mg Natural Caffeine",
+            "color_title": "#191e19",
+            "text_description": "",
+            "color_des": "#4d4d4d",
+            "fontsize_text": 12,
+            "content_popup": "",
+            "spacing_top": 0,
+            "spacing_bottom": 12
+          }
+        },
+        "36addb13-cd73-4713-a15c-7d846c4724e7": {
+          "type": "custom_information",
+          "settings": {
+            "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewbox=\"0 0 32 32\" fill=\"none\">\n  <path d=\"M8.0283 21.4258V22.0596H9.5339L7.90112 25.0113H10.6518V24.3754H9.01289L10.6518 21.4258H8.0283Z\" fill=\"#0E1F1A\"></path>\n  <path d=\"M12.8836 22.0596V21.4258H11.0088V25.0113H12.9349V24.3754H11.6836V23.4339H12.7544V22.8042H11.6836V22.0596H12.8836Z\" fill=\"#0E1F1A\"></path>\n  <path d=\"M15.753 22.5273C15.753 21.8565 15.2361 21.4258 14.549 21.4258H13.4126V25.0113H14.0895V22.9991V22.0617H14.551C14.869 22.0617 15.0536 22.2504 15.0536 22.5273C15.0536 22.8042 14.869 22.9991 14.551 22.9991H14.0895L15.1602 25.0113H15.9192L15.0946 23.4647C15.4946 23.3273 15.7551 23.0093 15.7551 22.5273H15.753Z\" fill=\"#0E1F1A\"></path>\n  <path d=\"M17.8411 21.3516C16.8216 21.3516 15.9929 22.09 15.9929 23.2161C15.9929 24.3422 16.8237 25.0807 17.8411 25.0807C18.8646 25.0807 19.6892 24.3422 19.6892 23.2161C19.6892 22.09 18.8646 21.3516 17.8411 21.3516ZM17.8411 24.4304C17.1703 24.4304 16.6944 23.9382 16.6944 23.2161C16.6944 22.4941 17.1703 22.0018 17.8411 22.0018C18.518 22.0018 18.9877 22.4941 18.9877 23.2161C18.9877 23.9382 18.5159 24.4304 17.8411 24.4304Z\" fill=\"#0E1F1A\"></path>\n  <path d=\"M6.67048 26.9652C6.67048 26.7498 6.82432 26.5918 7.07047 26.5918C7.31661 26.5918 7.4643 26.7149 7.53199 26.9508H8.25402C8.12685 26.2636 7.66942 25.9375 7.07047 25.9375C6.50638 25.9375 5.96896 26.3375 5.96896 26.9816C5.96896 28.3538 7.59353 27.8267 7.59353 28.5856C7.59353 28.8113 7.42943 29.0102 7.15252 29.0102C6.8756 29.0102 6.68689 28.8564 6.62535 28.6H5.90332C6.02024 29.2769 6.48177 29.6646 7.15252 29.6646C7.74122 29.6646 8.29505 29.2133 8.29505 28.5692C8.29505 27.1867 6.67048 27.7036 6.67048 26.9652Z\" fill=\"#0E1F1A\"></path>\n  <path d=\"M11.0742 28.0467C11.0742 28.6929 10.7049 29.019 10.1983 29.019C9.69162 29.019 9.35317 28.6908 9.35317 28.0467V26.0078H8.67627V28.0467C8.67627 29.0867 9.31215 29.6651 10.1983 29.6651C11.0906 29.6651 11.7244 29.0867 11.7244 28.0467V26.0078H11.0742V28.0467Z\" fill=\"#0E1F1A\"></path>\n  <path d=\"M15.6753 27.7036H14.0467V28.3395H14.9533C14.8918 28.6882 14.5492 29.0164 13.94 29.0164C13.2487 29.0164 12.8282 28.5241 12.8282 27.8021C12.8282 27.08 13.2939 26.5877 13.9605 26.5877C14.3954 26.5877 14.6825 26.7826 14.863 27.0841H15.6158C15.3964 26.4175 14.781 25.9375 13.9605 25.9375C12.9513 25.9375 12.1267 26.6759 12.1267 27.8021C12.1267 28.9282 12.9103 29.6666 13.94 29.6666C14.9287 29.6666 15.6774 28.9692 15.6774 27.9662V27.7057L15.6753 27.7036Z\" fill=\"#0E1F1A\"></path>\n  <path d=\"M16.9221 26.0078L15.6318 29.5934H16.3436L16.6759 28.6108H17.9928L18.3312 29.5934H19.0594L17.7487 26.0078H16.9241H16.9221ZM16.8769 28.016L17.3282 26.6683L17.7897 28.016H16.879H16.8769Z\" fill=\"#0E1F1A\"></path>\n  <path d=\"M21.6586 27.1093C21.6586 26.4386 21.1417 26.0078 20.4545 26.0078H19.3181V29.5934H19.995V27.5811V26.6437H20.4565C20.7745 26.6437 20.9591 26.8324 20.9591 27.1093C20.9591 27.3862 20.7745 27.5811 20.4565 27.5811H19.995L21.0658 29.5934H21.8247L21.0001 28.0467C21.4001 27.9093 21.6606 27.5914 21.6606 27.1093H21.6586Z\" fill=\"#0E1F1A\"></path>\n  <path d=\"M27.7651 20.6126C27.7651 20.4628 27.6933 20.3234 27.5723 20.2372L22.2822 16.4076C21.9047 16.1532 21.515 16.6763 21.8637 16.9655C21.8678 16.9655 25.2872 19.6341 27.0164 20.9797C27.322 21.2177 27.7651 21.0003 27.7651 20.6126ZM4.1637 3.09923C3.93396 3.28794 3.94832 3.6428 4.19241 3.81306L6.79131 5.61198C7.13797 5.83556 7.49078 5.36583 7.17899 5.09507C7.17899 5.09507 6.26825 4.35458 5.41289 3.65716C5.1729 3.4623 4.93701 3.26948 4.72573 3.09923C4.56163 2.9659 4.32779 2.96795 4.1637 3.09923Z\" fill=\"#0E1F1A\"></path>\n  <path d=\"M6.77486 15.5445L13.7121 18.8715C13.7121 18.8715 13.7162 18.8715 13.7203 18.8736C13.7306 18.8798 13.7429 18.8839 13.7552 18.888C13.7593 18.888 13.7654 18.8921 13.7695 18.8941C13.7818 18.8982 13.7942 18.9023 13.8065 18.9044C13.8106 18.9044 13.8147 18.9064 13.8188 18.9085C13.8311 18.9105 13.8454 18.9126 13.8598 18.9146C13.8639 18.9146 13.868 18.9146 13.8721 18.9146C13.8885 18.9146 13.907 18.9167 13.9234 18.9167C13.9398 18.9167 13.9582 18.9167 13.9747 18.9146C13.9788 18.9146 13.9829 18.9146 13.987 18.9146C14.0013 18.9146 14.0136 18.9105 14.028 18.9085C14.0321 18.9085 14.0362 18.9064 14.0403 18.9044C14.0526 18.9003 14.0649 18.8982 14.0772 18.8941C14.0813 18.8941 14.0875 18.89 14.0916 18.888C14.1039 18.8839 14.1141 18.8798 14.1264 18.8736C14.1285 18.8736 14.1306 18.8736 14.1347 18.8715L21.0719 15.5445C21.2401 15.4645 21.3468 15.2942 21.3468 15.1076V7.24111C21.3468 7.24111 21.3468 7.23496 21.3468 7.23291C21.3468 7.21855 21.3468 7.20214 21.3447 7.18778C21.3447 7.18162 21.3447 7.17752 21.3447 7.17137C21.3427 7.15701 21.3406 7.14265 21.3365 7.12829C21.3365 7.12419 21.3365 7.12009 21.3344 7.11599C21.3303 7.09752 21.3242 7.08112 21.318 7.06471C21.318 7.0606 21.3139 7.0565 21.3139 7.0524C21.3078 7.04009 21.3016 7.02573 21.2955 7.01342C21.2934 7.00932 21.2893 7.00317 21.2873 6.99907C21.2811 6.98676 21.2729 6.9765 21.2647 6.9642C21.2627 6.96009 21.2585 6.95599 21.2565 6.95189C21.2339 6.92112 21.2093 6.89445 21.1806 6.86984C21.1765 6.86779 21.1744 6.86369 21.1703 6.86163C21.1601 6.85343 21.1478 6.84317 21.1355 6.83702C21.1334 6.83702 21.1314 6.83292 21.1273 6.83087C21.1252 6.83087 21.1211 6.82881 21.1191 6.82676C21.1088 6.82061 21.0965 6.81446 21.0842 6.8083C21.078 6.80625 21.0739 6.80215 21.0678 6.8001C21.0678 6.8001 21.0637 6.8001 21.0616 6.79805L14.1203 3.67198C13.9931 3.61455 13.8475 3.61455 13.7224 3.67198L6.78512 6.8001C6.78512 6.8001 6.78102 6.8001 6.77897 6.80215C6.77281 6.8042 6.76871 6.8083 6.76256 6.81035C6.75025 6.81651 6.73794 6.82266 6.72769 6.83087C6.72563 6.83087 6.72153 6.83292 6.71948 6.83497C6.71743 6.83497 6.71538 6.83907 6.71128 6.84112C6.69897 6.84933 6.68871 6.85753 6.67641 6.86574C6.6723 6.86779 6.67025 6.87189 6.66615 6.87394C6.63743 6.89856 6.61282 6.92522 6.59025 6.95599C6.5882 6.96009 6.5841 6.9642 6.58205 6.9683C6.57384 6.97855 6.56769 6.99086 6.55949 7.00317C6.55743 7.00727 6.55333 7.01342 6.55128 7.01753C6.54513 7.02983 6.53897 7.04214 6.53282 7.0565C6.53282 7.0606 6.52872 7.06471 6.52872 7.06881C6.52256 7.08522 6.51641 7.10368 6.51231 7.12009C6.51231 7.12419 6.51231 7.12829 6.51026 7.1324C6.50615 7.14675 6.5041 7.16111 6.50205 7.17547C6.50205 7.18163 6.50205 7.18573 6.50205 7.19188C6.50205 7.20624 6.5 7.2206 6.5 7.23701C6.5 7.23906 6.5 7.24316 6.5 7.24521V15.1117C6.5 15.2983 6.60666 15.4686 6.77486 15.5486V15.5445ZM7.47023 7.99186L13.4372 10.6872V17.6634L7.47023 14.8019V7.99391V7.99186ZM20.3745 14.8019L14.4075 17.6634V10.6872L20.3745 7.99186V14.8019ZM13.9213 4.64836L19.6791 7.24316L13.9213 9.84411L8.16354 7.24316L13.9213 4.64836Z\" fill=\"#0E1F1A\"></path>\n</svg>",
+            "color_icon": "#0e1f1a",
+            "text": "Zero Sugar",
+            "color_title": "#232323",
+            "text_description": "",
+            "color_des": "#999999",
+            "fontsize_text": 12,
+            "content_popup": "",
+            "spacing_top": 0,
+            "spacing_bottom": 0
+          }
+        },
+        "058d88b7-6cce-4aae-a5c4-b8193bbdfa7f": {
+          "type": "custom_information",
+          "settings": {
+            "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewbox=\"0 0 32 32\" fill=\"none\">\n  <path d=\"M25.3021 16.9918C24.6436 16.3333 23.9852 15.8395 23.3267 15.5102C21.6807 14.6873 20.0346 14.1934 18.3885 14.0288C18.3885 14.0288 18.3885 14.0288 18.2239 14.0288L19.7053 12.8765C20.1992 12.3827 20.8576 11.8889 21.3515 11.3951C22.0098 10.9012 22.5037 10.572 23.1621 10.2428C23.8205 9.91357 24.479 9.58436 25.1374 9.25513C24.3144 9.09053 23.4914 9.25513 22.8329 9.41974C22.1745 9.74897 21.3515 10.0782 20.693 10.572C20.0346 11.0658 19.5408 11.5597 19.047 12.2181C18.7177 12.7119 18.3885 13.3704 18.0592 13.8642C17.5654 13.8642 16.907 13.6995 16.4132 13.6995C16.7424 13.0412 16.907 12.2181 17.0716 11.3951C17.0716 11.0658 17.0716 10.572 17.0716 10.2428L18.0592 8.92592C18.2239 8.76131 18.2239 8.5967 18.3885 8.4321C18.553 8.4321 18.7177 8.4321 18.8823 8.4321C19.2115 8.4321 19.5408 8.4321 19.8699 8.4321C20.5284 8.4321 21.1868 8.26748 21.8453 7.93826C21.516 7.77366 21.1868 7.60905 20.8576 7.60905C20.5284 7.44444 20.1992 7.44444 19.8699 7.44444C19.7053 7.44444 19.7053 7.44444 19.5408 7.44444L19.7053 7.27983C20.1992 6.786 20.693 6.12757 21.3515 5.63374C21.6807 5.13992 22.3391 4.64608 22.9976 4.15226C22.1745 4.31687 21.3515 4.48148 20.693 4.97531C20.0346 5.46913 19.3761 5.96295 18.7177 6.62139C18.2239 7.11522 17.7301 7.77366 17.4008 8.5967C17.4008 8.76131 17.2362 8.92592 17.2362 9.25513C17.2362 9.09053 17.2362 8.76131 17.2362 8.5967C17.0716 7.77366 16.907 7.27983 16.7424 6.62139C16.907 6.62139 16.907 6.45679 17.0716 6.45679C17.2362 6.12757 17.4008 5.96296 17.5654 5.79835C17.7301 5.63374 17.8947 5.30452 18.0592 5.13992C18.2239 4.8107 18.3885 4.64608 18.553 4.31687C18.2239 4.31687 17.8947 4.48148 17.5654 4.64608C17.2362 4.48148 16.907 4.8107 16.7424 4.97531C16.5778 5.13992 16.5778 5.30452 16.4132 5.46913C16.2485 5.13992 16.084 4.64608 15.9193 4.31687C15.5901 3.82304 15.4255 3.32922 15.0963 3C15.0963 3.49383 15.2609 3.98765 15.4255 4.48148C15.4255 4.97531 15.5901 5.46913 15.7547 5.96295C15.7547 6.786 15.9193 7.77366 16.084 8.5967C16.084 9.58436 16.2485 10.572 16.2485 11.3951C16.2485 12.2181 16.2485 13.0412 16.2485 13.8642C15.9193 13.8642 15.4255 13.8642 15.0963 13.8642C15.0963 13.535 14.9317 13.2057 14.7671 12.8765C14.6025 12.3827 14.2733 11.8889 13.944 11.5597C13.6148 11.0658 13.2856 10.7366 12.9564 10.4074C13.121 9.91357 13.121 9.41974 13.121 8.92592C13.121 8.26748 12.9564 7.60905 12.6272 6.95061C12.298 6.29218 11.9687 5.79835 11.4749 5.30452C11.3103 5.13992 11.1457 4.8107 10.8165 4.64608C10.6519 4.48148 10.3226 4.31687 9.99343 4.15226C10.158 4.48148 10.3226 4.64608 10.4873 4.97531C10.6519 5.30452 10.8165 5.46913 10.9811 5.79835C11.3103 6.29218 11.4749 6.95061 11.8041 7.44444C11.9687 8.26748 12.298 9.25513 12.6272 10.0782C12.298 9.91357 11.9687 9.58436 11.6395 9.41974C11.3103 9.09053 10.8165 8.92592 10.3226 8.76131C9.82882 8.5967 9.49961 8.26748 9.00578 8.10287C8.51195 7.93826 8.01813 7.93826 7.5243 7.77366C7.03048 7.60905 6.53665 7.60905 6.04282 7.60905C6.53665 7.93826 6.86586 8.10287 7.35969 8.26748C7.68891 8.4321 8.18274 8.76131 8.67656 8.92592L8.84117 9.09053C8.51195 9.09053 8.34735 9.25513 8.18274 9.41974C7.85351 9.58436 7.68891 9.74897 7.5243 10.0782C7.35969 10.2428 7.19508 10.572 7.19508 10.9012C7.5243 10.9012 7.85351 10.7366 8.01813 10.7366C8.34735 10.572 8.51195 10.572 8.67656 10.4074C9.00578 10.2428 9.17038 10.0782 9.335 9.91357C9.49961 9.74897 9.49961 9.58436 9.66421 9.58436C9.66421 9.58436 9.82882 9.58436 9.82882 9.74897C10.158 10.0782 10.6519 10.2428 10.9811 10.572C11.8041 11.0658 12.4626 11.5597 13.2856 12.2181C13.6148 12.3827 13.944 12.7119 14.2733 13.0412C14.4379 13.2057 14.6025 13.535 14.7671 13.8642C14.2733 13.8642 13.944 13.8642 13.4502 14.0288C12.6272 14.1934 11.8041 14.358 11.1457 14.5226C10.3226 14.8518 9.49961 15.0164 8.84117 15.5102C8.01813 16.0041 7.35969 16.498 6.70125 17.321C6.20743 17.9794 5.87821 18.967 6.04282 19.9548C6.20743 20.9424 6.86586 21.7654 7.5243 22.2593C8.18274 22.7531 9.00578 23.0823 9.66421 23.4115C11.1457 24.0699 12.6272 24.7283 13.7794 25.5514C14.4379 26.0452 14.7671 26.5391 15.2609 27.1975C15.7547 28.0206 15.9193 28.8436 15.9193 29.6667H16.5778C16.5778 28.5144 16.907 27.3621 17.7301 26.3744C18.553 25.5514 19.5408 24.893 20.693 24.2345C21.8453 23.7407 22.9976 23.2469 24.1498 22.5885C24.6436 22.2593 25.3021 21.93 25.6313 21.2716C26.1251 20.7777 26.2897 19.9548 26.2897 19.2963C26.2897 18.4732 25.7959 17.6502 25.3021 16.9918ZM24.9728 20.9424C24.6436 21.4362 24.1498 21.7654 23.656 22.0946C22.6683 22.7531 21.516 23.2469 20.3638 23.7407C19.2115 24.2345 18.0592 25.0576 17.2362 26.0452C16.907 26.5391 16.5778 27.0329 16.4132 27.6913C16.4132 27.5267 16.4132 27.3621 16.2485 27.1975C15.9193 26.3744 15.4255 25.7161 14.7671 25.0576C13.4502 23.9054 11.9687 23.2469 10.4873 22.5885C9.82882 22.2593 9.00578 21.93 8.51195 21.4362C7.85351 20.9424 7.5243 20.4486 7.35969 19.7901C7.03048 19.1317 7.35969 18.4732 7.68891 17.9794C8.01813 17.4856 8.67656 16.9918 9.335 16.498C9.99343 16.1687 10.6519 15.8395 11.4749 15.5102C12.1333 15.1811 12.9564 15.0164 13.7794 15.0164C15.2609 14.8518 16.907 14.6873 18.3885 14.8518C19.8699 15.1811 21.3515 15.5102 22.8329 16.1687C23.4914 16.498 24.1498 16.9918 24.6436 17.4856C25.1374 17.9794 25.4666 18.6379 25.4666 19.2963C25.4666 19.9548 25.3021 20.4486 24.9728 20.9424Z\" fill=\"black\"></path>\n  <path d=\"M21.8452 16.9938C21.3514 16.6646 20.8575 16.5 20.1991 16.5C19.5407 16.5 19.0469 16.5 18.3884 16.6646C18.8822 16.8292 19.3761 17.1584 19.8699 17.3231C20.3637 17.4876 20.8575 17.8169 21.3514 17.9814C21.6806 18.3107 22.1744 18.4753 22.5037 18.8045C22.8328 19.1337 23.162 19.463 23.6559 19.9568C23.8205 19.2983 23.4913 18.8045 23.162 18.3107C22.8328 17.8169 22.339 17.3231 21.8452 16.9938Z\" fill=\"black\"></path>\n  <path d=\"M11.1456 20.2839C10.6518 19.9548 10.3225 19.7901 9.99333 19.4609C9.4995 19.1317 9.17028 18.8025 8.84106 18.3086C8.84106 18.8025 9.00567 19.4609 9.33489 19.9548C9.66411 20.4486 10.1579 20.9424 10.6518 21.2716C11.1456 21.6008 11.804 21.7654 12.2979 21.93C12.9563 22.0947 13.4501 21.93 14.1085 21.7654C13.6147 21.6008 13.1209 21.2716 12.6271 21.107C11.9686 20.7778 11.6394 20.4486 11.1456 20.2839Z\" fill=\"black\"></path>\n</svg>",
+            "color_icon": "#0e1f1a",
+            "text": "Peruvian Organic Maca",
+            "color_title": "#191e19",
+            "text_description": "",
+            "color_des": "#4d4d4d",
+            "fontsize_text": 12,
+            "content_popup": "",
+            "spacing_top": 0,
+            "spacing_bottom": 14
+          }
+        },
+        "9630b233-8164-4dad-ab64-8830bedf328a": {
+          "type": "complementary_products",
+          "settings": {
+            "complementary_product_title": "Pairs well with",
+            "complementary_product_layout": "2",
+            "complementary_product_limit_1": 2,
+            "complementary_product_limit_2": 3,
+            "complementary_product_arrows": false,
+            "complementary_product_dots": true,
+            "complementary_product_object": "cover",
+            "complementary_product_button_atc": false,
+            "spacing_top": 30,
+            "spacing_bottom": 0
+          }
+        },
+        "custom_DffGEr": {
+          "type": "custom",
+          "settings": {
+            "open_tab_mobile": false,
+            "title": "Nutritional Facts",
+            "type": "all",
+            "content": "<table class=\"table-single-product\">\n        <tr class=\"th-title\">\n            <th>Serving size</th>\n            <th>1 can (12 fl oz)</th>\n        </tr>\n\n        <tr class=\"tr-subtitle\">\n            <td class=\"td-subtitle\">\n                <span>\n                    Amount per serving\n                </span>\n\n                <strong>\n                    Calories\n                </strong>\n            </td>\n            <td class=\"td-number-bold\">20</td>\n        </tr>\n\n        <tr class=\"td-right\">\n            <td>% Daily Value</td>\n        </tr>\n\n       <!-- Color gray -->\n        <tr class=\"tr-color-gray\">\n            <td class=\"td-wrapper-gray\">\n                <strong class=\"total-nome-detail\">Total Fat</strong>\n                <span class=\"total-gramas\">0g</span>\n            </td>\n            <td class=\"total-porcentagem\">0%</td>\n        </tr>\n        <!-- Color white -->\n        <tr class=\"tr-color-white\">\n            <td class=\"td-wrapper-white\">\n                <strong class=\"total-nome-detail\">Sodium</strong>\n                <span class=\"total-gramas\">0g</span>\n            </td>\n            <td class=\"total-porcentagem\">0%</td>\n        </tr>\n        <!-- Color gray -->\n        <tr class=\"tr-color-gray\">\n            <td class=\"td-wrapper-gray\">\n                <strong class=\"total-nome-detail\">Total Carbohydrate</strong>\n                <span class=\"total-gramas\">8g</span>\n            </td>\n            <td class=\"total-porcentagem\">3%</td>\n        </tr>\n        <!-- Color white -->\n        <tr class=\"tr-color-white\">\n            <td class=\"td-wrapper-white\">\n                <strong class=\"total-nome-detail\">Total Fat</strong>\n                <span class=\"total-gramas\">0g</span>\n            </td>\n            <td class=\"total-porcentagem\">0%</td>\n        </tr>\n        <!-- Color gray simple -->\n        <tr class=\"tr-color-gray-simple\">\n            <td class=\"td-wrapper-gray-simple\">\n                <strong class=\"total-nome-detail\">Erythritol</strong>\n                <span class=\"total-gramas\"></span>\n            </td>\n            <td class=\"total-porcentagem\">5g</td>\n        </tr>\n        <!-- Color white -->\n        <tr class=\"tr-color-white tr-border-bottom\">\n            <td class=\"td-wrapper-white\">\n                <strong class=\"total-nome-detail\">Protein</strong>\n                <span class=\"total-gramas\">0g</span>\n            </td>\n            <td class=\"total-porcentagem\">0%</td>\n        </tr>\n        <!-- Color white simple -->\n        <tr class=\"tr-color-white\">\n            <td class=\"paragraph-simple\">\n                Not a significant source of saturated fat, trans fat, cholesterol, dietary fiber, vitamin D, calcium, iron and potassium.\n            </td>\n        </tr>\n        <!-- Color gray simple -->\n        <tr class=\"tr-color-gray\">\n            <td class=\"paragraph-simple-gray\">\n                Not a significant source of saturated fat, trans fat, cholesterol, dietary fiber, vitamin D, calcium, iron and potassium.\n            </td>\n        </tr>\n         <!-- Color white simple -->\n         <tr class=\"tr-color-white\">\n            <td class=\"paragraph-simple\">\n                Ingredients: Water, Organic Erythrito, Organic Yerba Mate Extract, Organic Natural Flavors, Organic Citric Acid, Organic Green Coffe Caffeine, \n                Organic Maca Blend (Organic Natural Flavors, Organic Maca Extract).\n            </td>\n        </tr>\n    </table>",
+            "product_custom_source": "dynamic",
+            "product_tab_key_metafield": "",
+            "enable_btn_show_more": false,
+            "maximum_des_to_show": 300
+          }
+        },
+        "bd3a641e-98d0-4da1-ab57-d5e4b0391995": {
+          "type": "countdown",
+          "settings": {
+            "spacing_top": 0,
+            "spacing_bottom": 20
+          }
+        },
+        "d98e243b-3682-495a-965a-1c7f7d460880": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "show_variant_image_group": true,
+            "enable_border_top": false,
+            "enable_border_bottom": false,
+            "color_border": "#e6e6e6",
+            "spacing_top": 0,
+            "spacing_bottom": 0
+          }
+        },
+        "d97e417a-941b-4a5d-bef3-a651adb918d8": {
+          "type": "variant_description",
+          "settings": {
+            "spacing_top": 0,
+            "spacing_bottom": 12
+          }
+        },
+        "04ea8843-f461-4f1d-8ea4-43f62fdfb21e": {
+          "type": "perks",
+          "settings": {
+            "show_size_chart": true,
+            "size_chart_type": "custom_image",
+            "size_chart_page": "",
+            "size_chart_image_type": "jpg",
+            "show_compare_color": true,
+            "show_compare_color_drop_drap": true,
+            "compare_layout": "1",
+            "spacing_top": 0,
+            "spacing_bottom": 22
+          }
+        },
+        "19de9abb-17c8-4d67-941d-b32706ed06fd": {
+          "type": "pickup_availability",
+          "settings": {
+            "show_pickup_availability": true,
+            "spacing_top": 0,
+            "spacing_bottom": 27
+          }
+        },
+        "10093fcf-2053-47e9-bedb-841bb0d046fa": {
+          "type": "trust_image",
+          "settings": {
+            "show_trust_image": true,
+            "spacing_top": 0,
+            "spacing_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "2e8c7c14-a0ad-4930-a1d8-3def05310426",
+        "b0ea69b7-8a54-4a3c-9abd-0fcceeabaaa0",
+        "4036f89b-c2c5-49a4-9d6b-2fd29ce7c46c",
+        "4f95b592-8369-4ab0-b30d-24e463fb6890",
+        "faa2b3e6-c0a1-4269-baa6-d2605efe4c05",
+        "f1b31d90-1e43-4948-9fe3-97ba43f6fb34",
+        "custom_information_3FA4RH",
+        "a86220cf-8641-4e06-87d3-b5ffa195501b",
+        "36addb13-cd73-4713-a15c-7d846c4724e7",
+        "058d88b7-6cce-4aae-a5c4-b8193bbdfa7f",
+        "9630b233-8164-4dad-ab64-8830bedf328a",
+        "custom_DffGEr",
+        "bd3a641e-98d0-4da1-ab57-d5e4b0391995",
+        "d98e243b-3682-495a-965a-1c7f7d460880",
+        "d97e417a-941b-4a5d-bef3-a651adb918d8",
+        "04ea8843-f461-4f1d-8ea4-43f62fdfb21e",
+        "19de9abb-17c8-4d67-941d-b32706ed06fd",
+        "10093fcf-2053-47e9-bedb-841bb0d046fa"
+      ],
+      "custom_css": [
+        ".productView-thumbnail-wrapper {padding-right: 24px;}"
+      ],
+      "settings": {
+        "container": "1770",
+        "padding_full_width": 0,
+        "show_sticky_info": true,
+        "media_fit": "contain",
+        "product_image_ratio": "portrait",
+        "portrait_aspect_ratio": 110,
+        "video_layout": "popup",
+        "zoomed_image": true,
+        "product_image_popup": "fancybox",
+        "main_image_show_custom_cursor": true,
+        "icon_color": "#000000",
+        "main_image_position": "left",
+        "main_image_layout": "1",
+        "main_image_arrows_desktop": false,
+        "main_image_arrows_mobile": false,
+        "main_image_counter_mobile": false,
+        "main_image_enable_parallax_mb": true,
+        "main_image_show_zoom_icon_mb": true,
+        "show_thumbnail_mobile": true,
+        "thumnail_layout": "1",
+        "thumbnail_to_show": 4,
+        "enable_sticky": true,
+        "sidebar_layout": "layout_1",
+        "sidebar_collapse": "collapse",
+        "sidebar_collapse_default": "expand",
+        "sidebar_position": "left",
+        "sidebar_heading_font": "font_1",
+        "sidebar_heading_font_size": 14,
+        "sidebar_heading_font_weight": "700",
+        "sidebar_heading_text_transform": "uppercase",
+        "show_badge": true,
+        "show_subtotal": true,
+        "subtotal_style": "2",
+        "show_sticky_add_to_cart": true,
+        "sticky_atc_layout": "1",
+        "enable_sticky_add_to_cart_always_mobile": false,
+        "show_sticky_vendor": false,
+        "show_quick_order_list": false,
+        "show_image": false,
+        "show_sku": false,
+        "show_tab": true,
+        "tab_layout": "horizontal",
+        "tab_layout_mobile": "popup",
+        "icon_style_layout": "style_2",
+        "title_font_size": 18,
+        "title_font_size_mb": 16,
+        "font_weight_title": "600",
+        "title_text_transform": "none",
+        "title_padding_top_bottom": 15,
+        "tab_border_color": "#000000",
+        "tab_border_color_rgb": "",
+        "show_product_bundle": true,
+        "background_color": "#FAFAFA",
+        "block_title": "Frequenly Bought Together",
+        "block_title_align": "left",
+        "product_style": "2",
+        "block_image_ratio": "adapt",
+        "bundle_discount": true,
+        "bundle_discount_text": "Get a [discount]% discount buying these products together",
+        "bundle_discount_text_color": "#232323",
+        "total_btn_color": "#ffffff",
+        "total_btn_border": "#232323",
+        "total_btn_bg": "#232323",
+        "total_btn_bg_gradient": "",
+        "total_btn_color_hover": "#232323",
+        "total_btn_border_hover": "#232323",
+        "total_btn_bg_hover": "#ffffff",
+        "total_btn_bg_gradient_hover": "",
+        "block_dots": false,
+        "block_arrows": true,
+        "padding_top": 30,
+        "padding_top_tablet": 30,
+        "padding_top_mobile": 30,
+        "padding_bottom": 70,
+        "padding_bottom_tablet": 40,
+        "padding_bottom_mobile": 30,
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 0,
+        "mg_bottom_tablet": 0,
+        "mg_bottom_mobile": 0
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "display_product_block": true,
+        "product_block_container": "container",
+        "padding_full_width": 0,
+        "enable_border_top": true,
+        "enable_border_bottom": false,
+        "color_border_bottom": "#e8e8e8",
+        "border_style": "container",
+        "mg_top_desktop": 40,
+        "mg_top_tablet": 35,
+        "mg_top_mobile": 35,
+        "mg_bottom_desktop": 0,
+        "mg_bottom_tablet": 0,
+        "mg_bottom_mobile": 0,
+        "product_block_layout": "slider",
+        "product_bg": "#ffffff",
+        "style_block_header": "style1",
+        "product_block_title": "Related Products",
+        "enable_border_title": false,
+        "mg_top_title": 27,
+        "mg_bottom_title": 3,
+        "fontsize_title": 18,
+        "fontsize_title_mb": 18,
+        "color_title": "#232323",
+        "border_color_title": "#232323",
+        "product_block_title_align": "center",
+        "product_block_limit": 10,
+        "grid_gap": 30,
+        "product_block_per_row": "4",
+        "product_block_swipe_on_mobile": true,
+        "product_block_dots": false,
+        "product_block_dots_mb": true,
+        "product_block_arrows": true,
+        "product_block_arrows_mb": false,
+        "product_block_show": "4",
+        "product_block_per_view": "4",
+        "show_half": true,
+        "scroll_height": 4,
+        "scroll_track_bg": "#f1f1f1",
+        "scroll_thumb_color": "#000000",
+        "scroll_thumb_hover_color": "#444444",
+        "enable_layout_special": false,
+        "bg_card": "#ffffff",
+        "padding_card": 15,
+        "border_radius_card": 5,
+        "border_layout_card": "full",
+        "border_width_card": 5,
+        "border_color_card": "#f0f1f4"
+      }
+    },
+    "product-recently-viewed": {
+      "type": "product-recently-viewed",
+      "disabled": true,
+      "settings": {
+        "display_product_recently_viewed": true,
+        "product_recently_viewed_container": "container",
+        "padding_full_width": 0,
+        "enable_border_top": true,
+        "enable_border_bottom": false,
+        "color_border_bottom": "#e8e8e8",
+        "border_style": "container",
+        "mg_top_desktop": 80,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 30,
+        "mg_bottom_desktop": 0,
+        "mg_bottom_tablet": 0,
+        "mg_bottom_mobile": 0,
+        "product_recently_viewed_layout": "slider",
+        "product_bg": "#ffffff",
+        "product_bg_gradient": "",
+        "style_block_header": "style1",
+        "product_recently_viewed_title": "Recently Viewed Products",
+        "enable_border_title": false,
+        "mg_top_title": 27,
+        "mg_bottom_title": 3,
+        "fontsize_title": 18,
+        "fontsize_title_mb": 18,
+        "border_color_title": "#232323",
+        "color_title": "#232323",
+        "product_recently_viewed_title_align": "center",
+        "product_recently_viewed_limit": 10,
+        "product_recently_viewed_image_ratio": "adapt",
+        "grid_gap": 30,
+        "product_recently_viewed_per_row": "4",
+        "product_recently_viewed_swipe_on_mobile": true,
+        "product_recently_viewed_dots": false,
+        "product_recently_viewed_dots_mb": true,
+        "product_recently_viewed_arrows": true,
+        "product_recently_viewed_arrows_mb": false,
+        "product_recently_viewed_show": "4",
+        "product_block_per_view": "4",
+        "show_half": true,
+        "scroll_height": 4,
+        "scroll_track_bg": "#f1f1f1",
+        "scroll_thumb_color": "#000000",
+        "scroll_thumb_hover_color": "#444444",
+        "enable_layout_special": false,
+        "bg_card": "#ffffff",
+        "padding_card": 15,
+        "border_radius_card": 5,
+        "border_layout_card": "full",
+        "border_width_card": 5,
+        "border_color_card": "#f0f1f4"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "product-recently-viewed"
+  ]
+}

@@ -1,0 +1,229 @@
+<div id="section-grid-image-text-two">
+  <div class="container-1770">
+    {% if section.settings.titulo-page != blank %}
+      <div class="title-wrapper">
+        <h1 class="title">
+          {{ section.settings.titulo-page }}
+        </h1>
+      </div>
+    {% endif  %}
+      <div class="container-image-text-wrapper">
+          <div class="block-text-img">
+            {% if section.settings.imagem-1 != blank %}
+              <img src="{{ section.settings.imagem-1 | image_url }}" alt="image">
+            {% else %}
+              <img src="https://machupicchu.energy/cdn/shop/files/bg_mp_2.png?v=1714509338" alt="image">
+            {% endif %}
+              <div class="text-paragraph">
+                <h1>{{ section.settings.titulo-1 }}</h1>
+                <p>{{ section.settings.descricao-1 }}</p>
+                {% if section.settings.botao_texto_1 != blank %}
+                  <a href="{{ section.settings.botao_link_1 }}" class="btn-clean">
+                    {{ section.settings.botao_texto_1 }}
+                  </a>
+                {% endif %}
+              </div>
+          </div>
+
+          <div class="block-text-img">
+            {% if section.settings.imagem-2 != blank %}
+              <img src="{{ section.settings.imagem-2 | image_url }}" alt="image">
+            {% else %}
+              <img src="https://machupicchu.energy/cdn/shop/files/bg_mp_2.png?v=1714509338" alt="image">
+            {% endif %}
+              <div class="text-paragraph">
+                <h1>{{ section.settings.titulo-2 }}</h1>
+                <p>{{ section.settings.descricao-2 }}</p>
+                {% if section.settings.botao_texto_2 != blank %}
+                  <a href="{{ section.settings.botao_link_2 }}" class="btn-clean">
+                    {{ section.settings.botao_texto_2 }}
+                  </a>
+                {% endif %}
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+{% schema %}
+    {
+      "name": "Grid image text 2",
+      "settings": [
+            {
+              "type": "text",
+              "id": "titulo-page",
+              "label": "Título central da página"
+            },
+
+            {
+              "type": "text",
+              "id": "titulo-1",
+              "label": "Título da Seção 1"
+            },
+
+            {
+              "type": "text",
+              "id": "descricao-1",
+              "label": "Descrição da Seção 1"
+            },
+
+            {
+              "type": "image_picker",
+              "id": "imagem-1",
+              "label": "Imagem left"
+            },
+
+            {
+              "type": "text",
+              "id": "botao_texto_1",
+              "label": "Texto do Botão 1"
+            },
+
+            {
+              "type": "url",
+              "id": "botao_link_1",
+              "label": "Link do Botão 1"
+            },
+            {
+              "type": "text",
+              "id": "titulo-2",
+              "label": "Título da Seção 2"
+            },
+
+            {
+              "type": "text",
+              "id": "descricao-2",
+              "label": "Descrição da Seção 2"
+            },
+
+            {
+              "type": "image_picker",
+              "id": "imagem-2",
+              "label": "Imagem right"
+            },
+
+            {
+              "type": "text",
+              "id": "botao_texto_2",
+              "label": "Texto do Botão 2"
+            },
+
+            {
+              "type": "url",
+              "id": "botao_link_2",
+              "label": "Link do Botão 2"
+            }
+       ],
+      "presets": [
+        {
+          "name": "Grid image text 2"
+        }
+      ]
+    }
+{% endschema %}
+
+{% style %}
+#section-grid-image-text-two {
+  margin-bottom: 160px;
+
+  @media(max-width:1024px){
+    margin-bottom: 64px;
+  }
+}
+
+.title-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .title{
+    color: #212721;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 120%; /* 57.6px */
+    padding: 110px 0 120px 0;
+    width: 100%;
+    max-width: 804px;
+
+    @media (max-width: 1024px) {
+        font-size: 32px;
+        max-width: 710px;
+        padding: 64px 0;
+    }
+  }
+}
+
+.container-image-text-wrapper {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+
+  @media(max-width:1440px){
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+
+.block-text-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:64px;
+
+  @media(max-width:1440px){
+    max-width:770px;
+    width:100%;
+    gap: 32px;
+  }
+
+  @media(max-width:767px){
+    flex-direction: column;
+  }
+
+  img {
+    max-width: 380px;
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+
+  .text-paragraph {
+    h1{
+      margin:0;
+      color:#133322;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 100%; /* 24px */
+      padding-bottom: 24px;
+    }
+    p{
+      margin:0;
+      color:#212721;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 160%; /* 32px */
+    }
+  }
+
+  .btn-clean {
+    color: #212721;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%; /* 14px */
+    letter-spacing: 0.84px;
+    text-transform: uppercase;
+    display: flex;
+    padding:14px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border: 1.5px solid #212721;
+    width: fit-content;
+    margin-top: 40px;
+  }
+}
+
+{% endstyle %}

@@ -1,0 +1,27 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-register",
+      "custom_css": [
+        ".login-text,.form-field .form-label,.login-item .form-input {color: #3a3f3a;}",
+        ".button--primary {min-width: 100%; width: 100%; font-size: 1.25rem; font-weight: 400; line-height: 100%; letter-spacing: 0.84px; text-transform: uppercase; border-radius: 6px; height: 48px;}"
+      ],
+      "settings": {
+        "container": "container",
+        "padding_full_width": 65
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

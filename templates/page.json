@@ -1,0 +1,160 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "custom_text_block_cQbgrC": {
+      "type": "custom-text-block",
+      "custom_css": [
+        ".custom-text-block {padding: 116px 0; @media (max-width: 1024px) {padding: 64px 16px; }}",
+        ".halo-block-header {margin: 0; display: flex; gap: 32px; flex-direction: column; align-items: center; @media (max-width: 1024px) {gap: 16px; }}",
+        ".halo-block-header .title {font-size: 12px; font-weight: 700; line-height: 100%; letter-spacing: 0.72px; text-transform: uppercase;}",
+        ".subtext-brand {max-width: 580px; width: 100%; font-size: 48px; font-weight: 400; line-height: 120%; @media (max-width: 1024px) {max-width: 380px; font-size: 2.8rem; }}"
+      ],
+      "settings": {
+        "container": "fullwidth",
+        "padding_full_width": 0,
+        "brand_bg": "#041612",
+        "brand_bg_gradient": "",
+        "brand_title": "WHO WE ARE",
+        "color_title": "#eaf0b8",
+        "fontsize_title": 12,
+        "fontsize_title_mb": 12,
+        "brand_des": "Energy to Feel Good.\nAnd together, Do Good.",
+        "color_des": "#ffffff",
+        "fontsize_des": 48,
+        "title_align": "center",
+        "menu": "",
+        "grid_gap": 5,
+        "padding_vertical": 5,
+        "padding_hozi": 5,
+        "border_radius": 5,
+        "fontsize_tab": 16,
+        "color_tab": "#232323",
+        "border_color": "#f9ede1",
+        "bg_color_tab": "#f9ede1",
+        "bg_color_gradient_tab": "",
+        "color_active": "#232323",
+        "border_color_active": "#f9ede1",
+        "bg_color_active": "#f9ede1",
+        "bg_color_gradient_active": "",
+        "mg_top_desktop": 100,
+        "mg_top_tablet": 65,
+        "mg_top_mobile": 30,
+        "mg_bottom_desktop": 100,
+        "mg_bottom_tablet": 65,
+        "mg_bottom_mobile": 30
+      }
+    },
+    "video_block_EEkmdj": {
+      "type": "video-block",
+      "settings": {
+        "container": "fullwidth",
+        "spotlight_bg": "#ffffff",
+        "spotlight_bg_gradient": "",
+        "video_block_title": "WHAT DRIVES US?",
+        "color_title": "#232323",
+        "fontsize_title": 16,
+        "fontsize_title_mb": 22,
+        "margin_bottom_title": 45,
+        "video_block_des": "<h3>Machu Picchu is born out of a passion: to share the joy of living outdoors to the fullest. And also, out of a dream: to use that same energy to improve the lives of children in difficult situations.</h3>\n\n<p>All of this is reflected in the way we create MACHU PICCHU's unparalleled flavourful drinks, with organic flavor technology, natural caffeine, and no artificial flavors. And moreover, in the way we take action to bring real change and inspire others.</p>",
+        "color_des": "#3c3c3c",
+        "fontsize_des": 16,
+        "title_align": "center",
+        "cover_image": "shopify://shop_images/image_4_97cc1f02-069b-4848-aa3e-2ad9f40a830a.png",
+        "autoplay": false,
+        "video_height": "50",
+        "video_height_mb": "100",
+        "style_video": "youtube",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_url_mb": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "url_mp4": "",
+        "url_mp4_mb": "",
+        "description": "",
+        "full_width": true,
+        "position_icon": "center",
+        "heading": "",
+        "font_size_heading": 40,
+        "font_size_heading_mb": 24,
+        "margin_bottom_heading": 20,
+        "color_heading": "#232323",
+        "text": "",
+        "font_size_des": 12,
+        "font_size_des_mb": 12,
+        "margin_bottom_des": 35,
+        "color_des_content": "#232323",
+        "content_width": 475,
+        "align": "center",
+        "position": "left",
+        "btn_text": "",
+        "link": "",
+        "button_width": 235,
+        "button_color": "#ffffff",
+        "button_border": "#232323",
+        "button_background": "#232323",
+        "button_background_gradient": "",
+        "button_color_hover": "#ffffff",
+        "button_border_hover": "#232323",
+        "button_background_hover": "#232323",
+        "button_background_gradient_hover": "",
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50
+      }
+    },
+    "grid_image_text_three_NeqJ6j": {
+      "type": "grid-image-text-three",
+      "custom_css": [],
+      "settings": {
+        "titulo-page": "A life full of learnings.",
+        "subtitulo-page": "Our story",
+        "descricao": "Bernardo Paiva was born in Brazil. As a young kid in the streets of Rio de Janeiro, he learned from his parents, both teachers, the value of education and giving back to the community.",
+        "titulo-right": "\"Nothing made me feel better than being out there, lining up in the sea, waiting for waves.\"",
+        "descricao-right": "As he grew up, his passion for outdoor did too. His love for surfing or just walking amidst the mountains, showed him the power of connecting with nature and how it could help him restore his emotional balance.",
+        "imagem-right": "shopify://shop_images/Mask_group.png",
+        "titulo-center": "“I wanted to find a way to do my part and lend a hand to all those kids in need of a better education, a safer environment and better role models.”",
+        "descricao-center": "Throughout the years, Bernardo’s successful professional career has given him the chance to collaborate with NGOs to improve the personal and economic outlook of the children in favelas.",
+        "imagem-center": "shopify://shop_images/Mask_group_1.png",
+        "titulo-left": "I’ve never been more motivated and inspired in my entire life",
+        "descricao-left": "Throughout the years, Bernardo’s successful professional career has given him the chance to collaborate with NGOs to improve the personal and economic outlook of the children in favelas.",
+        "imagem-left": "shopify://shop_images/Mask_group_2.png"
+      }
+    },
+    "grid_card_image_text_Y79V7w": {
+      "type": "grid-card-image-text",
+      "settings": {
+        "titulo": "The dreamers behind it",
+        "subtitulo": "Our Team",
+        "titulo-card-1": "Bernardo Paiva",
+        "subtitulo-card-1": "FOUNDER, EXECUTIVE CHAIRMAN OF THE BOARD",
+        "descricao-card-1": "Former CEO of AmBev and Global Head of Sales for AB-InBev, the world’s largest brewer, he learned to surf growing up in Rio de Janeiro. The sport helps him connect with nature and restore his mental balance. His parents, both teachers, taught him the value of giving back to the community. Throughout his career, he has worked with NGOs in Brazil helping children in favelas to improve their personal and economic outlook. His passion for the outdoors, surfing and helping children in need continues to be a strong source of motivation, and his dream of sharing those passions with more people has only grown.",
+        "imagem-card-1": "shopify://shop_images/image_3.png",
+        "titulo-card-2": "Silvio Reichert",
+        "subtitulo-card-2": "CO-FOUNDER AND BOARD MEMBER",
+        "descricao-card-2": "Former global senior leader in Innovation R&D/Technology Development and Supply at AB-InBev, the world’s largest brewer. His career spans North America, Latin America, Europe, Africa, Asia and Oceania, and he has expertise in bridging cultural differences across all continents. Along with a cohort of friends, he sponsors children’s education in Northeast of Brazil.",
+        "imagem-card-2": "shopify://shop_images/image_2.png"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_text_block_cQbgrC",
+    "video_block_EEkmdj",
+    "grid_image_text_three_NeqJ6j",
+    "grid_card_image_text_Y79V7w"
+  ]
+}

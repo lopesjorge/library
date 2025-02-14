@@ -1,0 +1,317 @@
+<div id="section-grid-who-we-are">
+    <div class="container-1770">
+      <div class="text-decorator-line">
+        <div class="decorator"></div>
+        <h3 class="subtitule">{{ section.settings.subtitulo-page }}</h3>
+      </div>
+      <h1 class="title">{{ section.settings.titulo-page }}</h1>
+      <p class="description">{{ section.settings.descricao }}</p>
+    </div>
+
+    <div class="bloco-texto">
+        <img src="{{ section.settings.imagem-right | image_url }}" alt=""class="image-left">
+
+        <div class="container-custom content-left">
+            <div class="block-text-left"> 
+                <svg id="svg-init" xmlns="http://www.w3.org/2000/svg" width="49" height="32" viewBox="0 0 49 32" fill="none">
+                  <path d="M8.1194 16.8756C8.1194 17.9901 8.27861 18.9453 8.43781 19.4229C9.87065 17.6716 11.9403 16.7164 14.4876 16.7164C16.7164 16.7164 18.4677 17.3532 19.9005 18.6269C21.1741 20.0597 21.8109 21.8109 21.8109 24.0398C21.8109 26.4279 21.0149 28.3383 19.2637 29.7711C17.5124 31.204 15.4428 32 12.7363 32C9.23383 32 6.20895 30.5672 3.8209 27.8607C1.27363 25.1542 0 21.8109 0 17.5124C0 12.4179 1.59204 8.2786 4.93532 4.93533C8.27861 1.59204 12.5771 0 17.8308 0C19.4229 0 21.0149 0.159202 22.4478 0.636817V7.00498C20.8557 6.68657 19.5821 6.52736 18.4677 6.52736C15.4428 6.52736 12.8955 7.48258 10.9851 9.23383C9.07463 10.9851 8.1194 13.5323 8.1194 16.8756ZM34.3881 16.8756C34.3881 17.9901 34.5473 18.9453 34.7065 19.4229C36.1393 17.6716 38.209 16.7164 40.7562 16.7164C42.9851 16.7164 44.7363 17.3532 46.1691 18.6269C47.4428 20.0597 48.0796 21.8109 48.0796 24.0398C48.0796 26.4279 47.2836 28.3383 45.5323 29.7711C43.7811 31.204 41.7114 32 39.005 32C35.5025 32 32.4776 30.5672 30.0895 27.8607C27.7015 25.1542 26.4279 21.8109 26.4279 17.5124C26.4279 12.4179 28.0199 8.2786 31.3632 4.93533C34.5473 1.59204 38.8458 0 44.0995 0C45.6915 0 47.2836 0.159202 48.7164 0.636817V7.00498C47.1244 6.68657 45.8507 6.52736 44.8955 6.52736C41.7114 6.52736 39.1642 7.48258 37.2537 9.23383C35.3433 10.9851 34.3881 13.5323 34.3881 16.8756Z" fill="white" fill-opacity="0.1"/>
+                </svg>
+
+                <h1 class="title-block">
+                 {{section.settings.titulo-right }}
+                </h1>
+                
+                <p class="description-block">
+                  {{ section.settings.descricao-right }}
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="bloco-texto">
+        <img src="{{ section.settings.imagem-center | image_url }}" alt=""class="image-right">
+
+        <div class="container-custom content-right itens-top">
+            <div class="block-text-left"> 
+                <h1 class="title-block">
+                 {{section.settings.titulo-center }}
+                </h1>
+                
+                <p class="description-block">
+                  {{ section.settings.descricao-center }}
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="bloco-texto">
+        <img src="{{ section.settings.imagem-left | image_url }}" alt=""class="image-left">
+
+        <div class="container-custom content-left">
+            <div class="block-text-left itens-left"> 
+                <h1 class="title-block">
+                 {{section.settings.titulo-left }}
+                </h1>
+                
+                <p class="description-block">
+                  {{ section.settings.descricao-left }}
+                </p>
+
+                <svg id="svg-init" xmlns="http://www.w3.org/2000/svg" width="49" height="32" viewBox="0 0 49 32" fill="none">
+                  <path d="M40.8806 15.1244C40.8806 14.0099 40.7214 13.0547 40.5622 12.5771C39.1294 14.3284 37.0597 15.2836 34.5124 15.2836C32.2836 15.2836 30.5323 14.6468 29.0995 13.3731C27.8259 11.9403 27.1891 10.1891 27.1891 7.9602C27.1891 5.57214 27.9851 3.66169 29.7363 2.22886C31.4876 0.796022 33.5572 0 36.2637 0C39.7662 0 42.791 1.43283 45.1791 4.13931C47.7264 6.84578 49 10.1891 49 14.4876C49 19.5821 47.408 23.7214 44.0647 27.0647C40.7214 30.408 36.4229 32 31.1692 32C29.5771 32 27.9851 31.8408 26.5522 31.3632V24.995C28.1443 25.3134 29.4179 25.4726 30.5323 25.4726C33.5572 25.4726 36.1045 24.5174 38.0149 22.7662C39.9254 21.0149 40.8806 18.4677 40.8806 15.1244ZM14.6119 15.1244C14.6119 14.0099 14.4527 13.0547 14.2935 12.5771C12.8607 14.3284 10.791 15.2836 8.24379 15.2836C6.01493 15.2836 4.26369 14.6468 2.83085 13.3731C1.55722 11.9403 0.920403 10.1891 0.920403 7.9602C0.920403 5.57214 1.71642 3.66169 3.46767 2.22886C5.21891 0.796022 7.28856 0 9.99503 0C13.4975 0 16.5224 1.43283 18.9105 4.13931C21.2985 6.84578 22.5721 10.1891 22.5721 14.4876C22.5721 19.5821 20.9801 23.7214 17.6368 27.0647C14.4527 30.408 10.1542 32 4.9005 32C3.30846 32 1.71642 31.8408 0.283585 31.3632V24.995C1.87562 25.3134 3.14926 25.4726 4.10448 25.4726C7.28856 25.4726 9.83582 24.5174 11.7463 22.7662C13.6567 21.0149 14.6119 18.4677 14.6119 15.1244Z" fill="white" fill-opacity="0.1"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+{% schema %}
+    {
+      "name": "Who we are grid 3",
+      "settings": [
+            {
+              "type": "text",
+              "id": "titulo-page",
+              "label": "Título central da página"
+            },
+
+            {
+              "type": "text",
+              "id": "subtitulo-page",
+              "label": "Subtítulo central da página"
+            },
+
+            {
+              "type": "text",
+              "id": "descricao",
+              "label": "Descrição central da página"
+            },
+
+            {
+              "type": "text",
+              "id": "titulo-right",
+              "label": "Título da Seção right"
+            },
+
+            {
+              "type": "text",
+              "id": "descricao-right",
+              "label": "Descrição da Seção right"
+            },
+
+            {
+              "type": "image_picker",
+              "id": "imagem-right",
+              "label": "Imagem background section right"
+            },
+
+            {
+              "type": "text",
+              "id": "titulo-center",
+              "label": "Título da Seção centro"
+            },
+
+            {
+              "type": "text",
+              "id": "descricao-center",
+              "label": "Descrição da Seção centro"
+            },
+
+            {
+              "type": "image_picker",
+              "id": "imagem-center",
+              "label": "Imagem background section centro"
+            },
+
+            {
+              "type": "text",
+              "id": "titulo-left",
+              "label": "Título da Seção left"
+            },
+
+            {
+              "type": "text",
+              "id": "descricao-left",
+              "label": "Descrição da Seção left"
+            },
+
+            {
+              "type": "image_picker",
+              "id": "imagem-left",
+              "label": "Imagem background section left"
+            }
+       ],
+
+      "presets": [
+          {
+          "name": "Who we are grid 3"
+        }
+      ]
+    }
+{% endschema %}
+
+{% style %}
+#section-grid-who-we-are {
+  background:#041612;
+  padding:120px 0;
+
+  @media (max-width: 1024px){
+    padding:64px 0;
+  }
+
+  h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+  }
+}
+
+.container-custom {
+    max-width: 1208px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    height:100%;
+
+    @media (max-width: 768px){
+      justify-content: left;
+  }
+}
+
+.bloco-texto {
+  position: relative;
+  height: 980px;
+
+  @media (max-width: 1440px){
+    height: 594px;
+  }
+
+  @media (max-width: 1024px){
+    height: 100%;
+    padding-top: 64px;
+
+    img{
+      position: static;
+    }
+  }
+}
+
+.text-decorator-line {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding-bottom: 32px;
+
+  .decorator {
+    background: #EAF0B8;
+    width: 32px;
+    height: 1px;
+    display: block;
+  }
+
+  .subtitule {
+    color: #EAF0B8;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 100%; /* 12px */
+    letter-spacing: 0.72px;
+    text-transform: uppercase;
+  }
+}
+
+.title {
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 150%;
+  padding-bottom: 32px;
+}
+
+.description {
+  color:rgba(255, 255, 255, 0.70);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 160%; 
+  max-width: 594px;
+  width: 100%;
+}
+
+.title-block {
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 150%; /* 48px */
+  padding-bottom: 32px;
+
+  @media (max-width: 1024px){
+    padding-bottom: 24px;
+    font-size: 24px;
+  }
+}
+
+.description-block {
+  color:rgba(255, 255, 255, 0.70);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 22.4px */
+}
+
+.block-text-left {
+  max-width: 438px;
+  width: 100%;
+
+  #svg-init {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 32px;
+  }
+
+  @media (max-width: 1024px){
+    max-width: 368px;
+  }
+}
+
+.image-left {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    object-fit: contain;
+}
+
+.image-right {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    object-fit: contain;
+}
+
+.content-left{
+  justify-content: right;
+}
+
+.content-right{
+  justify-content: left;
+
+  @media (max-width:600px){
+    justify-content: left;
+  }
+}
+
+.itens-left {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.itens-top {
+  align-items: start;
+  padding-top: 64px;
+}
+{% endstyle %}
+

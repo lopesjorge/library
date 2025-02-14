@@ -1,0 +1,121 @@
+<div id="section-card-who-we-are">
+    <div class="container-custom content-left">
+        <div class="block-text-left"> 
+            <svg id="svg-init" xmlns="http://www.w3.org/2000/svg" width="49" height="32" viewBox="0 0 49 32" fill="none">
+              <path d="M8.1194 16.8756C8.1194 17.9901 8.27861 18.9453 8.43781 19.4229C9.87065 17.6716 11.9403 16.7164 14.4876 16.7164C16.7164 16.7164 18.4677 17.3532 19.9005 18.6269C21.1741 20.0597 21.8109 21.8109 21.8109 24.0398C21.8109 26.4279 21.0149 28.3383 19.2637 29.7711C17.5124 31.204 15.4428 32 12.7363 32C9.23383 32 6.20895 30.5672 3.8209 27.8607C1.27363 25.1542 0 21.8109 0 17.5124C0 12.4179 1.59204 8.2786 4.93532 4.93533C8.27861 1.59204 12.5771 0 17.8308 0C19.4229 0 21.0149 0.159202 22.4478 0.636817V7.00498C20.8557 6.68657 19.5821 6.52736 18.4677 6.52736C15.4428 6.52736 12.8955 7.48258 10.9851 9.23383C9.07463 10.9851 8.1194 13.5323 8.1194 16.8756ZM34.3881 16.8756C34.3881 17.9901 34.5473 18.9453 34.7065 19.4229C36.1393 17.6716 38.209 16.7164 40.7562 16.7164C42.9851 16.7164 44.7363 17.3532 46.1691 18.6269C47.4428 20.0597 48.0796 21.8109 48.0796 24.0398C48.0796 26.4279 47.2836 28.3383 45.5323 29.7711C43.7811 31.204 41.7114 32 39.005 32C35.5025 32 32.4776 30.5672 30.0895 27.8607C27.7015 25.1542 26.4279 21.8109 26.4279 17.5124C26.4279 12.4179 28.0199 8.2786 31.3632 4.93533C34.5473 1.59204 38.8458 0 44.0995 0C45.6915 0 47.2836 0.159202 48.7164 0.636817V7.00498C47.1244 6.68657 45.8507 6.52736 44.8955 6.52736C41.7114 6.52736 39.1642 7.48258 37.2537 9.23383C35.3433 10.9851 34.3881 13.5323 34.3881 16.8756Z" fill="white" fill-opacity="0.1"/>
+            </svg>
+
+            <h1 class="title-block">
+              {{section.settings.titulo-right }}
+            </h1>
+            
+            <p class="description-block">
+              {{ section.settings.descricao-right }}
+            </p>
+        </div>
+    </div>
+  
+</div>
+
+{% schema %}
+    {
+      "name": "Who we are card 2 imagens",
+      "settings": [
+            {
+              "type": "text",
+              "id": "titulo",
+              "label": "Título central da página"
+            },
+
+            {
+              "type": "text",
+              "id": "subtitulo",
+              "label": "Subtítulo central da página"
+            },
+
+            {
+              "type": "text",
+              "id": "titulo-card-1",
+              "label": "Título da Seção card-1"
+            },
+
+            {
+              "type": "text",
+              "id": "subtitulo-card-1",
+              "label": "Subtítulo card-1"
+            },
+
+            {
+              "type": "text",
+              "id": "descricao-card-1",
+              "label": "Descrição da Seção card-1"
+            },
+
+            {
+              "type": "image_picker",
+              "id": "imagem-card-1",
+              "label": "Imagem background section card-1"
+            },
+
+            {
+              "type": "text",
+              "id": "titulo-card-2",
+              "label": "Título da Seção card-2"
+            },
+
+            {
+              "type": "text",
+              "id": "subtitulo-card-2",
+              "label": "Subtítulo card-2"
+            },
+
+            {
+              "type": "text",
+              "id": "descricao-card-2",
+              "label": "Descrição da Seção card-2"
+            },
+
+            {
+              "type": "image_picker",
+              "id": "imagem-card-2",
+              "label": "Imagem background section card-2"
+            }
+       ],
+
+      "presets": [
+          {
+          "name": "Who we are card 2 imagens"
+        }
+      ]
+    }
+{% endschema %}
+
+{% style %}
+#section-card-who-we-are {
+  background:#041612;
+  padding:120px 0;
+
+  @media (max-width: 1024px){
+    padding:64px 0;
+  }
+
+  h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+  }
+}
+
+.container-custom {
+    max-width: 1208px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    height:100%;
+
+    @media (max-width: 768px){
+      justify-content: left;
+  }
+}
+{% endstyle %}
+

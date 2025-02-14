@@ -1,0 +1,40 @@
+<div id="section-carrossel-marcas">
+<img src="{{ section.settings.imagem| image_url }}" alt="Background-image">
+</div>
+
+{% schema %}
+    {
+      "name": "Carroussel marcas",
+      "settings": [
+          {
+            "type": "image_picker",
+            "id": "imagem",
+            "label": "Imagem de fundo"
+          },
+
+          {
+            "type": "image_picker",
+            "id": "imagem-mobile",
+            "label": "Imagem mobile"
+          } 
+       ],
+      "presets": [
+        {
+          "name": "Carroussel marcas"
+        }
+      ]
+    }
+{% endschema %}
+
+
+{% style %}
+#section-carrossel-marcas {
+  width: 100%;
+  Background:#041612;
+
+  img {
+    padding: 16px;
+    border-radius: 6px;
+  }
+}
+{% endstyle %}
